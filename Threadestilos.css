@@ -1,0 +1,152 @@
+body{
+    margin-left: 80px;
+}
+
+.nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 60px;
+}
+.nav .titulo{
+    font-family: 'Cooper Black';
+    margin-right: 50px;
+    width: 60%;
+    font-size: 50px;
+}
+
+.nome{
+    font-size: 30px;
+    font-family: 'Gill Sans MT';
+}
+
+.autor-data{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.back{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    width: 80px;
+    height: 40px;
+    border-color: gray;
+    border-style: solid;
+    border-width: 3px;
+    border-top: black;
+    border-right: black;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: 'Gill Sans MT';
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+}
+
+#del:hover{
+    background-color: red;
+}
+
+.back:hover{
+    color:black;
+    background-color: gray;
+    border-color: black;
+    border-top: gray;
+    border-right: gray;
+}
+
+.texto{
+    margin-top: 50px;
+    font-size: 25px;
+    padding: 20px;
+    padding-bottom: 50px;
+    width: 65%;
+    border-bottom: 3px solid gray;
+}
+
+.respostas{
+    margin-bottom: 100px;
+}
+
+.respostas h1{
+    font-family: 'Gill Sans MT';
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.respostas h2{
+    font-family: 'Gill Sans MT';
+    font-size: 25px;
+}
+
+.respostas p{
+    font-size: 20px;
+    padding-bottom: 20px;
+    width: 65%;
+}
+
+.respostas div form{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+#newreplie{
+    font-size: 30px;
+} 
+
+.caixa-texto{
+    width: 40%;
+    height: 100px;
+    font-size: 20px;
+}
+
+.respostas div form div input{
+    width: 200px;
+    font-size: 20px;
+}
+
+.final{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 40%;
+}
+
+@media screen and (max-width:770px){
+
+    .texto{
+        width: 100%;
+        font-size: 40px;
+        margin-top: 10px;
+    }
+
+    .respostas p{
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .caixa-texto{
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .final{
+        width: 100%;
+    }
+}
+
