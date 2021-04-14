@@ -19,8 +19,8 @@ function inicio(){
 
     const generator= conta(pagina, localStorage.cont)
         .map(i => `<div class="flex-min">
-                    <a href="/Thread.html" class="titulo-menor" onclick=getnome("${threads[i]}") id="dados"><div>${threads[i]}</div></a>
-                    <a href="/Thread.html" class="detalhes" onclick=getnome("${threads[i]}") id="dados"><div>Detalhes</div></a>
+                    <a href="Thread.html" class="titulo-menor" onclick=getnome("${threads[i]}") id="dados"><div>${threads[i]}</div></a>
+                    <a href="Thread.html" class="detalhes" onclick=getnome("${threads[i]}") id="dados"><div>Detalhes</div></a>
                     <div class="respostas">${respostas[i]} respostas</div>
                 </div>` )
     .join(''); 
@@ -51,8 +51,8 @@ document.getElementById('vermais').addEventListener('click',function(){
 
         const generator= conta(pagina, localStorage.cont)
             .map(i => `<div class="flex-min">
-            <a href="/Thread.html" class="titulo-menor" onclick=getnome("${threads[i]}") id="dados"><div>${threads[i]}</div></a>
-            <a href="/Thread.html" class="detalhes" onclick=getnome("${threads[i]}") id="dados"><div>Detalhes</div></a>
+            <a href="Thread.html" class="titulo-menor" onclick=getnome("${threads[i]}") id="dados"><div>${threads[i]}</div></a>
+            <a href="Thread.html" class="detalhes" onclick=getnome("${threads[i]}") id="dados"><div>Detalhes</div></a>
                         <div class="respostas">${respostas[i]} respostas</div>
                     </div>` )
         .join('');    
@@ -76,8 +76,8 @@ document.getElementById('vermenos').addEventListener('click',function(){
 
         const generator= conta(pagina, localStorage.cont)
             .map(i => `<div class="flex-min">
-            <a href="/Thread.html" class="titulo-menor" onclick=getnome("${threads[i]}") id="dados"><div>${threads[i]}</div></a>
-            <a href="/Thread.html" class="detalhes" onclick=getnome("${threads[i]}") id="dados"><div>Detalhes</div></a>
+            <a href="Thread.html" class="titulo-menor" onclick=getnome("${threads[i]}") id="dados"><div>${threads[i]}</div></a>
+            <a href="Thread.html" class="detalhes" onclick=getnome("${threads[i]}") id="dados"><div>Detalhes</div></a>
                         <div class="respostas">${respostas[i]} respostas</div>
                     </div>` )
         .join('');    
